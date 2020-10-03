@@ -1,0 +1,107 @@
+
+.body{
+	margin:0px;
+}
+.head{
+
+	background: #F98FC1;
+	border-radius: 0px 0px 0px 75px;
+	color:white;
+	margin-bottom: 0px;
+}
+
+.row{
+	margin:0px;
+}
+
+.admission_button{
+	background: black;
+	width: 200px;
+	padding:5px;
+	margin-top:3px;
+	float:right;
+	margin-bottom: 3px;
+}
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.search{
+
+  width:250px; 
+  border-radius: 5px;
+  margin-top: 9px;
+  border:1px solid black;
+}
+
+
+.trending h1{
+	font-weight:bold;
+	color:black;
+	margin-top:20px;
+	margin-bottom:20px;
+	text-align:center;
+}
+
+.trending{
+	  background-image: url("http://www.lovethispic.com/uploaded_images/35108-Pretty-Halloween-Bokeh.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:15px;
+}
+.sarees h1{
+	font-weight:bold;
+	color:black;
+	margin-top:20px;
+	margin-bottom:20px;
+	text-align:center;
+}
+
+
+.women_wear h1{
+	font-weight:bold;
+	color:black;
+	margin-top:20px;
+	margin-bottom:20px;
+	text-align:center;
+	
+}
+.saree_img{
+	padding:5px;
+	width: 90%;
+}
+.saree_imgd{
+	padding:5px;
+	width: 90%;
+}
+.saree_img:hover{
+	border:1px solid #F98FC1;
+
+  -webkit-transform:scale(1.25, 1.25);
+  transform:scale(0.95, 0.95)
+
+}
+.footer{
+	background: #CAC8C9;
+}
+
+a{
+	text-decoration: none;
+}
+@media screen and (max-width: 500px) {
+#slider_image{
+ height:150px;
+  }
+
+}
